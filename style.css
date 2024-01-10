@@ -6,17 +6,19 @@ body {
 }
 
 .header {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
+
 .header__image {
-    width: 100%;
-    margin: 0 0 -3px;
+  width: 100%;
+  margin: 0 0 -3px;
 }
+
 .header__info {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -102,11 +104,7 @@ body {
 }
 
 .tasks {
-<<<<<<< HEAD
-  margin:0;
-=======
   margin: 0;
->>>>>>> 720d7c3 (feat: Basic rule 3.2. Meaningful naming)
   padding: 0px;
   list-style: none;
 }
@@ -119,11 +117,10 @@ body {
   justify-content: space-between;
   align-items: center;
   vertical-align: middle;
-<<<<<<< HEAD
 }
 
 .tasks__checkbox {
-  margin: 0 10px;  
+  margin: 0 10px;
   outline: none;
 }
 
@@ -144,7 +141,7 @@ body {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  text-decoration: line-through; 
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -159,7 +156,6 @@ body {
   background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-=======
 }
 
 .tasks__checkbox {
@@ -212,7 +208,6 @@ body {
   display: inline-block;
   width: 67%;
   color: #888;
->>>>>>> 720d7c3 (feat: Basic rule 3.2. Meaningful naming)
 }
 
 .tasks__delete {
