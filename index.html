@@ -20,7 +20,7 @@
       <h3 class="task__tittle">Add Item</h3>
       <div class="task__row-wrapper">
         <input id="new-task" class="task__row" type="text">
-        <button class="task__button">Add</button>
+        <button class="header__button">Add</button>
       </div>
     </section>
 
@@ -33,6 +33,8 @@
           <label class="tasks__title">Pay Bills</label>
           <input type="text" class="tasks__task">
           <button class="tasks__edit tasks__button">Edit</button>
+          <input type="text" class="tasks__editor">
+          <button class="tasks__edit">Edit</button>
           <button class="tasks__delete">
             <img class="tasks__delete-image" src="./remove.svg">
           </button>
@@ -43,6 +45,9 @@
           <label class="tasks__title">Go Shopping</label>
           <input type="text" value="Go Shopping" class="tasks__task">
           <button class="tasks__edit tasks__button">Save</button>
+          <label class="tasks__title tasks__title_edit">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="tasks__editor tasks__editor_edit">
+          <button class="tasks__edit">Save</button>
           <button class="tasks__delete">
             <img class="tasks__delete-image" src="./remove.svg">
           </button>
@@ -54,10 +59,13 @@
       <h3 class="todo__tittle">Completed</h3>
       <ul id="completed-tasks" class="tasks">
         <li class="tasks__element">
-          <input type="checkbox"  class="tasks__checkbox" checked>
+          <input type="checkbox" class="tasks__checkbox" checked>
           <label class="tasks__title">See the Doctor</label>
           <input type="text" class="tasks__task">
           <button class="tasks__edit tasks__button">Edit</button>
+          <label class="tasks__title task__title_completed">See the Doctor</label>
+          <input type="text" class="tasks__editor">
+          <button class="tasks__edit">Edit</button>
           <button class="tasks__delete">
             <img class="tasks__delete-image" src="./remove.svg">
           </button>

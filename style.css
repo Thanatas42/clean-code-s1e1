@@ -1,8 +1,8 @@
 /* Basic Style */
 body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .header {
@@ -17,9 +17,22 @@ body {
 }
 .header__info {
     font-family: fantasy, cursive;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 
-.task__button {
+.header__image {
+  width: 100%;
+  margin: 0 0 -3px;
+}
+
+.header__info {
+  font-family: fantasy, cursive;
+}
+
+.header__button {
   background: none;
   border: 0px;
   color: #888;
@@ -30,19 +43,20 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 }
 
 .main {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .task__row-wrapper {
   display: flex;
-  margin: 10px 0  ;
+  margin: 10px 0;
 }
 
 .task__tittle {
@@ -59,7 +73,7 @@ body {
 .task__row {
   display: inline-block;
   width: 318px;
-  width: 56%;  
+  width: 56%;
   flex-grow: 1;
   margin: 0;
   font-size: 18px;
@@ -88,7 +102,11 @@ body {
 }
 
 .tasks {
+<<<<<<< HEAD
   margin:0;
+=======
+  margin: 0;
+>>>>>>> 720d7c3 (feat: Basic rule 3.2. Meaningful naming)
   padding: 0px;
   list-style: none;
 }
@@ -101,6 +119,7 @@ body {
   justify-content: space-between;
   align-items: center;
   vertical-align: middle;
+<<<<<<< HEAD
 }
 
 .tasks__checkbox {
@@ -140,6 +159,60 @@ body {
   background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
+=======
+}
+
+.tasks__checkbox {
+  margin: 0 10px;
+  outline: none;
+}
+
+.tasks__title {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.task__title_completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.tasks__editor {
+  display: none;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+}
+
+.tasks__edit {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+.tasks__title_edit {
+  display: none;
+}
+
+.tasks__editor_edit {
+  display: inline-block;
+  width: 67%;
+  color: #888;
+>>>>>>> 720d7c3 (feat: Basic rule 3.2. Meaningful naming)
 }
 
 .tasks__delete {
